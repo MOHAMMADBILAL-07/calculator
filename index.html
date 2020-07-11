@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <table>
+        <div class="main">
+            <div>
+                <input id="result" class="result" type="text">
+            </div>
+            <div>
+                <button class="clearbtn" onclick="clearresult()">C</button>
+            </div>
+            <div>
+                <button class="num" onclick="getnumber('7')">7</button>
+                <button class="num" onclick="getnumber('8')">8</button>
+                <button class="num" onclick="getnumber('9')">9</button>
+                <button class="num" onclick="getnumber('*')">*</button>
+            </div>
+            <div>
+                <button class="num" onclick="getnumber('4')">4</button>
+                <button class="num" onclick="getnumber('5')">5</button>
+                <button class="num" onclick="getnumber('6')">6</button>
+                <button class="num" onclick="getnumber('-')">-</button>
+            </div>
+            <div>
+                <button class="num" onclick="getnumber('1')">1</button>
+                <button class="num" onclick="getnumber('2')">2</button>
+                <button class="num" onclick="getnumber('3')">3</button>
+                <button class="num" onclick="getnumber('+')">+</button>
+            </div>
+            <div>
+                <button class="num" onclick="getnumber('0')">0</button>
+                <button class="num" onclick="getnumber('.')">.</button>
+                <button class="num"  onclick="getresult()">=</button>
+                <button class="num" onclick="getresult('/')">/</button>
+            </div>
+        </div>
+        
+    </table>
+</body>
+<script src="app.js"></script>
+</html>

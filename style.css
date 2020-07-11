@@ -1,0 +1,21 @@
+.main{
+    border: 2px solid black ;
+    width: 700px;
+    margin: 0 auto;
+    
+}
+.result{
+    width: 98%;
+    background-color: lightcoral;
+}
+.clearbtn{
+    width: 100%;
+    margin-top: 5px;
+    background-color: yellow;
+}
+.num{
+    background-color: yellow;
+    width: 24.5%;
+    margin: auto;
+    margin-top: auto;
+}
